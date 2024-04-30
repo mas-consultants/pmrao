@@ -15,7 +15,7 @@
 				> and we will get back to you .
 			</p>
 		</div>
-		<div x-data="{selected:null}">
+		<div x-data="{selected:1}">
 			<ul
 				class="list-none text-black bg-white rounded-3xl divide-y mt-8"
 				role="list"
@@ -52,49 +52,42 @@
 						x-ref="container1"
 					>
 						<div class="text-sm text-zinc-500 p-8 pt-0">
-							PM Rao himself, his associates are at his disposal
-							to handle wide range of financials and business
-							advisory. You can reach him <a
-								class="text-blue-500 hover:text-black"
-								href="mainto:contact@pmrao.in">here</a
-							>
-						</div>
-					</div>
-				</li><li class="relative">
-					<button
-						class="w-full p-4 text-left"
-						@click="selected !== 2 ? selected = 2 : selected = null"
-						type="button"
-						><div
-							class="items-center flex justify-between text-black"
-						>
-							<p class="text-lg tracking-tight text-black">
-								Who runs the MAS Consultants?
-							</p><svg
-								class="ml-4 duration-200 h-5 inline rotate-180 transform transition-transform w-5"
-								fill="currentColor"
-								viewBox="0 0 20 20"
-								xmlns="http://www.w3.org/2000/svg"
-								:class="{'rotate-180': open, 'rotate-0': !open}"
-								><path
-									d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-									clip-rule="evenodd"
-									fill-rule="evenodd"></path></svg
-							>
-						</div></button
-					><div
-						class="relative overflow-hidden duration-700 max-h-0 transition-all"
-						style=""
-						x-bind:style="selected == 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''"
-						x-ref="container2"
-					>
-						<div class="text-sm text-zinc-500 p-8 pt-0">
-							Arun Pesala is head of Consulting Services which is
-							new offering from PM Rao & Associates. You can reach
-							him <a
-								class="text-blue-500 hover:text-black"
-								href="mainto:arun@pmrao.in">here</a
-							>
+							Pesala Mastan Rao, Managing partner
+							<br />
+							Mr. Mastan Rao, with over 40 years of post-CA experience
+							in banking and a BSE-listed company, has led audit departments
+							for various state government corporations in Telangana
+							and Andhra Pradesh, contributing significantly to their
+							financial revitalization. Beyond his professional achievements,
+							he is a compassionate humanitarian and the founder of
+							the "Universal Human Welfare Association," which is currently
+							providing education to over 1000 underprivileged children.
+							Additionally, through MAS Consultants, he enhances client
+							value by offering expertise in non-audit business portfolios.
+							<br />
+							<br />
+							BVS Bhaskar Krishna, Partner
+							<br />
+							Mr. Bhaskar krishna with more than 40+ years of post
+							ca experience working in banking.who led many audits
+							for the banks and revived many of their clients into
+							a profitable sector for the bank.
+							<br />
+							<br />
+							K Nageswara Rao, Advisory commitee
+							<br />
+							Mr. Nageswara Rao with 40+ years of experience in india's
+							largest infrastructure firms. Currently he is the vice
+							president for meil, who are the parent companies for
+							Olectra green.
+							<br />
+							<br />
+							Vankayala Rama Rao, Advisory commitee
+							<br />
+							Mr. Rama rao with more than 15+ years of post ca experience
+							working in banking.who led many audits for the banks
+							and revived many of their clients into a profitable sector
+							for the bank.
 						</div>
 					</div>
 				</li>
